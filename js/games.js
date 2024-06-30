@@ -53,6 +53,7 @@ function diplayGames(data){
     <div class="col-md-3">
               <div class="card h-100" card-id="${data[i].id}" >
                 <img card-id="${data[i].id}" src="${data[i].thumbnail}" class="card-img-top" alt="card-img">
+                <span card-id="${data[i].id}" class='badge w-100 mt-3 clickHere'>click here to show Details Game</span>
                 <div card-id="${data[i].id}" class="mt-3 card-head d-flex justify-content-around align-items-center">
                   <h4 card-id="${data[i].id}" class="card-title">${data[i].title}</h4>
                 <span card-id="${data[i].id}" class="p-2 badge bg-primary">free</span>
@@ -63,7 +64,9 @@ function diplayGames(data){
                  
                   <span card-id="${data[i].id}" class="badge me-3 text-uppercase">${data[i].genre}</span>
                   <span card-id="${data[i].id}" class="badge ">${data[i].platform}</span>
+                 
                 </div>
+                
               </div>
             </div>
     `
@@ -108,7 +111,7 @@ function displaygame(data){
   <div class="row">
           <div class="col-md-4">
             <div class="game-img">
-              <img src="${data.thumbnail}" class="w-100" alt="">
+              <img src="${data.thumbnail}" class="w-100" alt="game">
             </div>
           </div>
           <div class="col-md-8">
@@ -188,7 +191,7 @@ btnGames.addEventListener('click',function(){
                 <div  class="card-body d-flex justify-content-around align-items-center ">
                  
                  
-                      <button  class="btn btn-outline-warning"><a href="../myGames/game3/game3.html" target="_blank">View Game</a></button>
+                      <button  class="btn btn-outline-warning"><a href="../myGames/game3/game3.html" target="_blank">SHOW GAME</a></button>
                 </div>
               </div>
             </div>

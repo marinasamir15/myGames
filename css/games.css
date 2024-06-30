@@ -96,6 +96,12 @@ a{
 .cardy{
     height: 120px;
 }
+.card{
+    cursor: pointer;
+}
+#btnClose{
+    background-color: #FF3D00 !important;
+}
   @keyframes rotate {
     0% {
       width: 64px;
