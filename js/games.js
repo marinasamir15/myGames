@@ -53,14 +53,14 @@ function diplayGames(data){
     <div class="col-md-3">
               <div class="card cardClick h-100" card-id="${data[i].id}" >
                 <img card-id="${data[i].id}" src="${data[i].thumbnail}" class="card-img-top" alt="card-img">
-                <span card-id="${data[i].id}" class='badge w-100 fw-bolder mt-3 clickHere'>click here to show Details Game</span>
-                <div card-id="${data[i].id}" class="mt-3 card-head d-flex justify-content-around align-items-center">
+                <span card-id="${data[i].id}" class='badge w-100 fw-bolder mt-3 clickHere'>Click here to show Details Game</span>
+                <div card-id="${data[i].id}" class="mt-3 card-head d-flex justify-content-around align-items-center cardsWrap">
                   <h4 card-id="${data[i].id}" class="card-title">${data[i].title}</h4>
                 <span card-id="${data[i].id}" class="p-2 badge bg-primary">free</span>
                 </div>
                 <p card-id="${data[i].id}" class="card-text mt-3 text-center mb-1 small ">${data[i].short_description.split(" ",10)}</p>
                
-                <div card-id="${data[i].id}" class="card-body d-flex justify-content-around align-items-center ">
+                <div card-id="${data[i].id}" class="card-body d-flex justify-content-around align-items-center cardsWrap ">
                  
                   <span card-id="${data[i].id}" class="badge me-3 text-uppercase">${data[i].genre}</span>
                   <span card-id="${data[i].id}" class="badge ">${data[i].platform}</span>
