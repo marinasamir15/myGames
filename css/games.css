@@ -96,8 +96,12 @@ a{
 .cardy{
     height: 120px;
 }
-.card{
+.cardClick{
     cursor: pointer;
+}
+.clickHere{
+    font-size: 14px;
+    color: #e69b84;
 }
 #btnClose{
     background-color: #FF3D00 !important;

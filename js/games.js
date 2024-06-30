@@ -51,9 +51,9 @@ function diplayGames(data){
   for(let i=0;i<data.length;i++){
     cartona +=`
     <div class="col-md-3">
-              <div class="card h-100" card-id="${data[i].id}" >
+              <div class="card cardClick h-100" card-id="${data[i].id}" >
                 <img card-id="${data[i].id}" src="${data[i].thumbnail}" class="card-img-top" alt="card-img">
-                <span card-id="${data[i].id}" class='badge w-100 mt-3 clickHere'>click here to show Details Game</span>
+                <span card-id="${data[i].id}" class='badge w-100 fw-bolder mt-3 clickHere'>click here to show Details Game</span>
                 <div card-id="${data[i].id}" class="mt-3 card-head d-flex justify-content-around align-items-center">
                   <h4 card-id="${data[i].id}" class="card-title">${data[i].title}</h4>
                 <span card-id="${data[i].id}" class="p-2 badge bg-primary">free</span>
@@ -142,6 +142,7 @@ btnGames.addEventListener('click',function(){
     <div class="col-md-3">
               <div class="card h-100" >
                 <img src="../images/back.jpg" class="card-img-top cardy" alt="card-img">
+                  <a href="../myGames/game1/game1.html" class='text-center' target="_blank"> <button  class="btn btn-outline-warning mt-3 ">SHOW GAME</button></a> 
                 <div class="mt-3 card-head d-flex justify-content-around align-items-center">
                   <h4 class="card-title">Identical Cards Game</h4>
                 <span  class="p-2 badge bg-primary">free</span>
@@ -153,7 +154,7 @@ btnGames.addEventListener('click',function(){
                 <div  class="card-body d-flex justify-content-around align-items-center ">
                  
                  
-                      <button  class="btn btn-outline-warning"><a href="../myGames/game1/game1.html" target="_blank">View Game</a></button>
+          
                 </div>
               </div>
             </div>
@@ -161,6 +162,7 @@ btnGames.addEventListener('click',function(){
            <div class="col-md-3">
               <div class="card h-100" >
                 <img src="../images/2048-game.jpg" class="card-img-top cardy" alt="card-img">
+             <a href="../myGames/game2/game2.html" class='text-center' target="_blank"> <button  class="btn btn-outline-warning mt-3 ">SHOW GAME</button></a>   
                 <div class="mt-3 card-head d-flex justify-content-around align-items-center">
                   <h4 class="card-title">2048 Game</h4>
                 <span  class="p-2 badge bg-primary">free</span>
@@ -172,7 +174,7 @@ btnGames.addEventListener('click',function(){
                 <div  class="card-body d-flex justify-content-around align-items-center ">
                  
                  
-                      <button  class="btn btn-outline-warning"><a href="../myGames/game2/game2.html" target="_blank">View Game</a></button>
+                     
                 </div>
               </div>
             </div>
@@ -180,6 +182,7 @@ btnGames.addEventListener('click',function(){
            <div class="col-md-3">
               <div class="card h-100" >
                 <img src="../images/download.jfif" class="card-img-top cardy" alt="card-img">
+                  <a href="../myGames/game3/game3.html" class='text-center' target="_blank"> <button  class="btn btn-outline-warning mt-3 ">SHOW GAME</button></a> 
                 <div class="mt-3 card-head d-flex justify-content-around align-items-center">
                   <h4 class="card-title">Racing Cars Game</h4>
                 <span  class="p-2 badge bg-primary">free</span>
@@ -191,7 +194,7 @@ btnGames.addEventListener('click',function(){
                 <div  class="card-body d-flex justify-content-around align-items-center ">
                  
                  
-                      <button  class="btn btn-outline-warning"><a href="../myGames/game3/game3.html" target="_blank">SHOW GAME</a></button>
+                      
                 </div>
               </div>
             </div>
