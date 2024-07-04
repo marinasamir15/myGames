@@ -51,7 +51,7 @@ header img{
 }
 #displayGames .card:hover{
     filter: grayscale(0); 
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 .loading {
     position: absolute;
@@ -148,14 +148,31 @@ a{
 
   @media screen and (max-width :768px){
     .clickHere{
-        font-size: 16px;
+        font-size: 20px;
         color: #e69b84;
     }
+    #displayGames .card {
+        filter: grayscale(0.8);
+        transition: all 0.5s;
+     }
+     #displayGames .card:hover{
+         filter: grayscale(0); 
+         transform: scale(1.08);
+     }
+
   }
    @media screen and (max-width :576px){
     .clickHere{
-        font-size: 16px;
+        font-size: 20px;
         color: #e69b84;
     }
+    #displayGames .card {
+        filter: grayscale(0.8);
+        transition: all 0.5s;
+     }
+     #displayGames .card:hover{
+         filter: grayscale(0); 
+         transform: scale(1.05);
+     }
   }
  
