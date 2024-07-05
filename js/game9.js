@@ -52,7 +52,7 @@ window.onload = function () {
         requestAnimationFrame(update);
         setInterval(placePipes, 1500);
         document.addEventListener("keydown", moveBird);
-        document.getElementById("startButton").style.display = "none"; // Hide button after starting game
+        document.getElementById("startButton").style.display = "none"; 
     }
 };
 
@@ -69,7 +69,7 @@ function update() {
 
     if (bird.y > board.height) {
         gameOver = true;
-        gameOverSound.play(); // Play game over sound
+        gameOverSound.play(); 
     }
 
     for (var i = 0; i < pipeArray.length; i++) {
@@ -84,7 +84,7 @@ function update() {
 
         if (detectCollision(bird, pipe)) {
             gameOver = true;
-            gameOverSound.play(); // Play game over sound
+            gameOverSound.play(); 
         }
     }
 
